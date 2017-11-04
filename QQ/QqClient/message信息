@@ -1,0 +1,13 @@
+用户id：
+	0：指服务器
+	其他：各个用户
+Message类型：
+	0：
+	1：		message_succeed					表明是登录成功			null
+	2：		message_login_fail				表明登录失败			null
+	3：		message_comm_mes				普通信息包				"聊天内容"
+	4：		message_req_onlineFriend		要求在线好友			null
+	5：		message_ret_onlineFriend		返回在线好友			"id id id"
+	6：		message_req_Friend				要求好友信息			null
+	7:		message_ret_Friend				返回好友信息			"id id id"		
+	
