@@ -5,20 +5,20 @@ import java.sql.*;
 public class SqlHelper {
 
 
-	//¶¨ÒåĞèÒªµÄ¶ÔÏó
+	//å®šä¹‰éœ€è¦çš„å¯¹è±¡
 	PreparedStatement ps = null;
 	ResultSet rs = null;
 	Connection ct = null;
 	String driver = "com.microsoft.jdbc.sqlserver.SQLServerDriver";
 	String url = "jdbc:microsoft:sqlserver://127.0.0.1:1433;databaseName=QQ";
-	String user = "sa";
-	String passwd = "1234";
+	String user = "";//åœ¨è¿™é‡Œå®šä¹‰æ•°æ®åº“ç”¨æˆ·å
+	String passwd = "";//åœ¨è¿™é‡Œå®šä¹‰æ•°æ®åº“å¯†ç 
 	
-	//¹¹Ôìº¯Êı,³õÊ¼»¯ct
+	//æ„é€ å‡½æ•°,åˆå§‹åŒ–ct
 	public SqlHelper()
 	{
 		try {
-			//¼ÓÔØÇı¶¯
+			//åŠ è½½é©±åŠ¨
 			Class.forName(driver);
 			ct = DriverManager.getConnection(url,user,passwd);
 		} catch (Exception e) {
@@ -28,7 +28,7 @@ public class SqlHelper {
 		
 	}
 	
-	//¹Ø±Õ×ÊÔ´
+	//å…³é—­èµ„æº
 	public void close()
 	{
 		try {
@@ -41,7 +41,7 @@ public class SqlHelper {
 		}
 	}
 	
-	//°Ñ¶ÔÊı¾İ¿âµÄÔöÉ¾¸Ä
+	//æŠŠå¯¹æ•°æ®åº“çš„å¢åˆ æ”¹
 	public boolean exeUpdate(String sql,String []paras)
 	{
 		boolean b = true;
@@ -61,7 +61,7 @@ public class SqlHelper {
 		return b;
 	}
 
-	//¶ÔÊı¾İ¿âµÄ²éÑ¯
+	//å¯¹æ•°æ®åº“çš„æŸ¥è¯¢
 	public ResultSet query(String sql,String []paras)
 	{
 		try {
@@ -79,7 +79,7 @@ public class SqlHelper {
 		return rs;
 	}
 	
-	//¶ÔÊı¾İ¿âµÄddl²Ù×÷Óï¾ä
+	//å¯¹æ•°æ®åº“çš„ddlæ“ä½œè¯­å¥
 	public boolean exeDDL(String sql)
 	{
 		boolean b = true;
