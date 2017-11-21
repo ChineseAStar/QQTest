@@ -19,8 +19,8 @@ public class LoginSetting extends JFrame implements ActionListener {
 		
 		//jp1
 		jp1 = new JPanel(new GridLayout(2,2));
-		jl1 = new JLabel("IPµØÖ·",JLabel.CENTER);
-		jl2 = new JLabel("¶Ë¿ÚºÅ",JLabel.CENTER);
+		jl1 = new JLabel("IPåœ°å€",JLabel.CENTER);
+		jl2 = new JLabel("ç«¯å£å·",JLabel.CENTER);
 		jtf1 = new JTextField("127.0.0.1");
 		jtf2 = new JTextField();
 		jtf2.setText("9999");
@@ -31,9 +31,9 @@ public class LoginSetting extends JFrame implements ActionListener {
 		
 		//jp2
 		jp2 = new JPanel();
-		jb1 = new JButton("È·¶¨");
+		jb1 = new JButton("ç¡®å®š");
 		jb1.addActionListener(this);
-		jb2 = new JButton("È¡Ïû");
+		jb2 = new JButton("å–æ¶ˆ");
 		jb2.addActionListener(this);
 		jp2.add(jb1);
 		jp2.add(jb2);
