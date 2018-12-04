@@ -1,0 +1,10 @@
+/.metadata/
+/.recommenders/
+
+.settings
+bin/
+*.class
+.classpath
+.project
+
+.gitgnore
