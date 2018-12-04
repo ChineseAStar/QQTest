@@ -1,10 +1,17 @@
-/.metadata/
-/.recommenders/
+.metadata/
 
-.settings
+.recommenders/
+
+
+.settings/
+
 bin/
+
 *.class
+
 .classpath
+
 .project
 
-.gitgnore
+
+.gitignore
