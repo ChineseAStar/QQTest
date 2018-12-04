@@ -11,7 +11,6 @@ import java.util.*;
 import com.qq.common.*;
 import com.qq.server.dbmodel.FriendModel;
 import com.qq.server.tools.ManageClientThread;
-import com.qq.server.view.*;
 
 import java.io.*;
 public class SerConClientThread extends Thread {

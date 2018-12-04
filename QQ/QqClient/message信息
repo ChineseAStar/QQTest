@@ -1,13 +1,13 @@
-ÓÃ»§id£º
-	0£ºÖ¸·şÎñÆ÷
-	ÆäËû£º¸÷¸öÓÃ»§
-MessageÀàĞÍ£º
-	0£º
-	1£º		message_succeed					±íÃ÷ÊÇµÇÂ¼³É¹¦			null
-	2£º		message_login_fail				±íÃ÷µÇÂ¼Ê§°Ü			null
-	3£º		message_comm_mes				ÆÕÍ¨ĞÅÏ¢°ü				"ÁÄÌìÄÚÈİ"
-	4£º		message_req_onlineFriend		ÒªÇóÔÚÏßºÃÓÑ			null
-	5£º		message_ret_onlineFriend		·µ»ØÔÚÏßºÃÓÑ			"id id id"
-	6£º		message_req_Friend				ÒªÇóºÃÓÑĞÅÏ¢			null
-	7:		message_ret_Friend				·µ»ØºÃÓÑĞÅÏ¢			"id id id"		
+ç”¨æˆ·idï¼š
+	0ï¼šæŒ‡æœåŠ¡å™¨
+	å…¶ä»–ï¼šå„ä¸ªç”¨æˆ·
+Messageç±»å‹ï¼š
+	0ï¼š
+	1ï¼š		message_succeed					è¡¨æ˜æ˜¯ç™»å½•æˆåŠŸ			null
+	2ï¼š		message_login_fail				è¡¨æ˜ç™»å½•å¤±è´¥			null
+	3ï¼š		message_comm_mes				æ™®é€šä¿¡æ¯åŒ…				"èŠå¤©å†…å®¹"
+	4ï¼š		message_req_onlineFriend		è¦æ±‚åœ¨çº¿å¥½å‹			null
+	5ï¼š		message_ret_onlineFriend		è¿”å›åœ¨çº¿å¥½å‹			"id id id"
+	6ï¼š		message_req_Friend				è¦æ±‚å¥½å‹ä¿¡æ¯			null
+	7:		message_ret_Friend				è¿”å›å¥½å‹ä¿¡æ¯			"id id id"		
 	
